@@ -10,6 +10,7 @@
         ├── WeatherDisplay -------------- Fetch weather and display.
         └── WeatherForm    -------------- User input location and submit query.
 5. Build up the function (v1.functional development)
+6. Style each component with CSS, add Quote of The Day to enrich the contents. (v2.CSS)
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
