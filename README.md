@@ -2,6 +2,65 @@
 
 This report details the development journey of TVO Weather, a user-focused weather application designed for ease of use and comprehensive functionality.  The development process was divided into clear stages, each contributing to the final product.
 
+## Technology Stack
+
+1. React
+2. Vite
+
+## Quick start
+
+1. Setup the virtual environment
+2. Clone the project from github
+
+```
+git clone https://github.com/fsjsts/tvo-weather-react.git
+cd tvo*
+ren .env.sample .env
+```
+3. Enter the weather key into .env
+4. Install packages and run
+
+```
+npm i
+npm run dev
+```
+
+## Packages
+```JSON
+{
+  "name": "tvo-weather-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "antd": "^5.18.3",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  }
+}
+```
+
+## Design and Development
 
 ### 1. Competitor Analysis
 
@@ -60,6 +119,8 @@ Define the structure and responsibility of each component in the application by 
 <img src="public/assets/s1.png" alt="s1"></img></a>
 <img src="public/assets/s2.png" alt="s2"></img></a>
 <img src="public/assets/s3.png" alt="s3"></img></a>
+
+# 
 
 # Conclusion
 The TVO Weather application was developed through a structured process, from initial competitor analysis to final backend integration. Each stage was meticulously planned and executed, resulting in a robust, user-friendly weather forecasting tool. This document serves as a comprehensive record of the development process, highlighting the key decisions and outcomes at each step.
