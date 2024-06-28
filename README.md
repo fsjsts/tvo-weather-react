@@ -9,7 +9,9 @@ The project began by analyzing leading weather websites like The Weather Network
 
 ### 2. UI Design
 
-The goal was to create an intuitive and visually appealing UI that met the assignment requirements while offering room for future enhancements and growth (scalability). It was achieved by using `Figma` for mockups and design iterations. The final design utilizes a three-column layout based on `Bootstrap`:
+The goal was to create an intuitive and visually appealing UI that met the assignment requirements while offering room for future enhancements and growth (scalability). It was achieved by using `Figma` for mockups and design iterations. 
+
+Inspired by an airplane streaking across a bright blue sky, the final design features a three-column layout built with `Bootstrap`:
 
 - Left Column (20%): Dedicated to consistant navigation elements.
 - Center Column (60%): Houses weather search and display (main assignment).
