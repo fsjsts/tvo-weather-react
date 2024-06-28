@@ -1,11 +1,12 @@
+// Weather.jsx
 import React, { useState, useEffect } from "react";
-import WeatherForm from "./WeatherForm.jsx";
+import WeatherForm    from "./WeatherForm.jsx";
 import WeatherDisplay from "./WeatherDisplay.jsx";
 import axios from "axios";
 
-const Weather = () => {
+const Weather = ({ weatherData, setWeatherData }) => {
     const [city, setCity] = useState("Toronto");
-    const [weatherData, setWeatherData] = useState(null);
+    // const [weatherData, setWeatherData] = useState(null);
     const [error, setError] = useState(null);
 
     useEffect(() => {
@@ -34,7 +35,6 @@ const Weather = () => {
     return (
         <div className='col-8'>
             <WeatherForm city={city} setCity={setCity} handleSubmit={handleSubmit} />
-            {/* {error && <p>{error}</p>} */}
             {error && <p className="displayerror">{error}</p>}
             <WeatherDisplay weatherData={weatherData} />
         </div>

@@ -3,7 +3,7 @@
 .display {
   margin-left: 70px;
   margin-top: 40px;
-  margin-right: 70px;
+  margin-right: 20px;
 }
 
 .display p {
@@ -34,5 +34,5 @@
   margin-left: 70px;
   margin-top: 40px;
   margin-right: 70px;
-  color: whitesmoke;
+  color: #5bc0de;
 }

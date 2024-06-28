@@ -6,22 +6,27 @@
 
 .row {
   margin-top: 12.5%;
-  height: 500px;
+  height: 530px;
   border-radius: 10px;
   box-shadow: 0 0 35px 5px;
 }
 
-.col-4 {
-  background-image: url('/assets/title-sidebar2.jpg');
-  background-position-y: -100px;
+.col {
+  background: linear-gradient(to bottom right, rgba(35, 35, 35, 0.6), rgba(88, 88, 88, 0.6));
   position: relative;
   background-size: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  color:lightgrey;
 }
 
-.col-8 {
+.col-6 {
   background: linear-gradient(to bottom right, #232323, #585858);
+}
+
+.colr {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
